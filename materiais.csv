@@ -1,0 +1,17 @@
+material,categoria,quantidade,preco_unitario
+Cimento CP-II 50kg,Alvenaria,120,32.50
+Tijolo ceramico 6 furos,Alvenaria,3500,1.15
+Areia media (m3),Alvenaria,18,85.00
+Brita 1 (m3),Alvenaria,15,95.00
+Tinta acrilica 18L,Acabamento,25,289.90
+Massa corrida 25kg,Acabamento,40,45.00
+Porcelanato 60x60 (m2),Acabamento,210,68.00
+Rejunte 5kg,Acabamento,30,22.50
+Fio eletrico 2.5mm (rolo 100m),Eletrica,12,145.00
+Disjuntor 20A,Eletrica,45,18.90
+Quadro de distribuicao 12 disj,Eletrica,8,210.00
+Tubo PVC 100mm (barra 6m),Hidraulica,60,58.00
+Registro de gaveta 3/4,Hidraulica,35,42.00
+Caixa d'agua 1000L,Hidraulica,4,650.00
+Telha ceramica (milheiro),Cobertura,6,980.00
+Madeirado telhado (m3),Cobertura,3,2100.00
