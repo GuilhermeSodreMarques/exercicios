@@ -1,0 +1,85 @@
+# ============================================================
+# EXERCÍCIOS - Análise de Dados com CSV puro (sem pandas)
+# Dataset: materiais.csv (materiais de construção)
+# ============================================================
+#
+# Colunas do CSV:
+#   material        -> nome do material (texto)
+#   categoria       -> Alvenaria, Acabamento, Eletrica, Hidraulica, Cobertura
+#   quantidade      -> quantidade comprada (número inteiro)
+#   preco_unitario  -> preço por unidade em R$ (número decimal)
+#
+# Dica geral: use a biblioteca csv, com csv.DictReader, que já
+# transforma cada linha em um dicionário {coluna: valor}.
+#
+# Exemplo de abertura de arquivo:
+#
+#   import csv
+#
+#   with open("materiais.csv", newline="", encoding="utf-8") as f:
+#       leitor = csv.DictReader(f)
+#       for linha in leitor:
+#           print(linha)
+#
+# Lembre-se: tudo que vem do csv.DictReader é TEXTO (string).
+# Se quiser somar ou comparar números, você precisa converter
+# com int() ou float() antes.
+#
+# ------------------------------------------------------------
+# EXERCÍCIO 1 - Aquecimento
+# ------------------------------------------------------------
+# Leia o arquivo materiais.csv e imprima:
+#   a) os nomes das colunas (cabeçalho)
+#   b) quantas linhas (materiais) existem no total
+#
+# Dica: leitor.fieldnames dá os nomes das colunas.
+
+
+# ------------------------------------------------------------
+# EXERCÍCIO 2 - Listagem formatada
+# ------------------------------------------------------------
+# Imprima cada material no formato:
+#   "Cimento CP-II 50kg | Alvenaria | 120 un | R$ 32.50"
+
+
+# ------------------------------------------------------------
+# EXERCÍCIO 3 - Valor total por item
+# ------------------------------------------------------------
+# Para cada material, calcule o valor total gasto
+# (quantidade * preco_unitario) e imprima:
+#   "Cimento CP-II 50kg -> R$ 3900.00"
+
+
+# ------------------------------------------------------------
+# EXERCÍCIO 4 - Valor total geral
+# ------------------------------------------------------------
+# Calcule e imprima o valor total gasto somando TODOS os
+# materiais (quantidade * preco_unitario de cada um, somados).
+
+
+# ------------------------------------------------------------
+# EXERCÍCIO 5 - Filtragem
+# ------------------------------------------------------------
+# Imprima apenas os materiais da categoria "Hidraulica".
+
+
+# ------------------------------------------------------------
+# EXERCÍCIO 6 - Maior e menor valor
+# ------------------------------------------------------------
+# Descubra e imprima:
+#   a) o material com o MAIOR valor total (quantidade * preco)
+#   b) o material com o MENOR valor total
+
+
+# ------------------------------------------------------------
+# EXERCÍCIO 7 - Agrupamento (o mais avançado desta lista)
+# ------------------------------------------------------------
+# Calcule o valor total gasto POR CATEGORIA e imprima algo como:
+#   Alvenaria: R$ 8437.50
+#   Acabamento: R$ ...
+#   Eletrica: R$ ...
+#   Hidraulica: R$ ...
+#   Cobertura: R$ ...
+#
+# Dica: use um dicionário vazio {} para ir acumulando os totais
+# por categoria, tipo: totais[categoria] = totais.get(categoria, 0) + valor
