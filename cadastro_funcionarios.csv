@@ -1,0 +1,16 @@
+id,nome,idade,setor,salario,cidade
+1,João Silva,25,TI,3500,Florianópolis
+2,Maria Souza,31,RH,4200,São José
+3,Pedro Santos,28,Estoque,2800,Palhoça
+4,Ana Oliveira,40,Financeiro,6200,Florianópolis
+5,Carlos Lima,35,TI,5100,Biguaçu
+6,Juliana Costa,29,Vendas,3300,São José
+7,Rafael Pereira,45,Financeiro,7000,Florianópolis
+8,Fernanda Alves,27,RH,3900,Palhoça
+9,Lucas Rocha,23,Estoque,2500,Biguaçu
+10,Camila Martins,38,Vendas,4800,Florianópolis
+11,Gabriel Ferreira,30,TI,5600,São José
+12,Patrícia Gomes,34,RH,4300,Palhoça
+13,Bruno Ribeiro,26,Estoque,2700,Florianópolis
+14,Amanda Barbosa,41,Financeiro,6800,São José
+15,Diego Mendes,32,Vendas,4500,Biguaçu
